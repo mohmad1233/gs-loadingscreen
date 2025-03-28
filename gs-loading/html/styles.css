@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.brand-logo {
+    width: 14%;
+}
+
+.text-detailbutton {
+    color: rgb(103, 108, 111);
+}
+
+.bg-bgbutton {
+    background: rgb(103, 108, 111);
+}
+
+.text-togglecolor {
+    color: rgb(220 20 60);
+}
+
+
+.loadingbar {
+    box-shadow: 0 910px 10px 100px rgba(0, 183, 255, 0.5);
+
+}
+
+
+
+.loadbar {
+    width: auto;
+    height: 1.5vh;
+    background: rgb(214, 97, 1);
+    z-index: 9999;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(103, 108, 111);
+    box-shadow: 0 1px 5px #0003, 0 2px 2px #00000024, 0 3px 1px -2px #0000001f;
+    z-index: 9999;
+}
+
+.itemscenter {
+    box-shadow: 0 50px 50px -10px rgba(0, 0, 0, 0.5);
+}
+.itemscenter h2 {
+    text-align: left;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 5em;
+    padding-bottom: 9em;
+}
+.itemscenter p {
+    text-align: left;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 2em;
+    color: #ffffff;
+    padding-bottom: em;
+
+}
+.logo {
+    position: fixed;
+    bottom: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+.itemscenter h3 {
+    color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: -0.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    width: fit-content;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.thingy {
+    width: auto;
+    height: 1.5vh;
+    position: absolute;
+    background: rgb(214, 97, 1);
+    z-index: 9999;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+.q-carousel {
+    background: rgb(0, 0, 0) !important;
+    height: auto !important;
+}
+
+.q-mb-md-d {
+    padding-top: 0px !important;
+    padding-left: 0.3vw !important;
+}
+
+.q-toggle {
+    margin-left: -0.5vw !important;
+}
+
+.q-toggle__label {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+.q-card {
+    z-index: 9999 !important;
+}
+
+.q-btn {
+    z-index: 9999 !important;
+}
+
+html,
+body {
+    background: transparent !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+body {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    -o-user-select: none !important;
+    user-select: none !important;
+}
+
+body.desktop.no-touch.within-iframe.body--light.q-body--prevent-scroll {
+    position: relative !important;
+}
+
+.absolute-full,
+.fixed-full,
+.fullscreen {
+    top: -3px !important;
+    bottom: -1px !important;
+}
+
+.absolutebottom,
+.fixed-bottom {
+    z-index: 1 !important;
+}
+
+span.q-btn__content.text-center.col.items-center.q-anchor--skip.justify-center.column {
+    text-transform: none !important;
+}
+
+.q-avatar__content.row.flex-center.overflow-hidden {
+    overflow: initial !important;
+}
+
+.q-carousel .q-carousel--padding,
+.q-carousel__slide {
+    padding-top: 0px !important;
+}
+
+.scroll {
+    overflow: hidden !important;
+}
+
+.q-focus-helper {
+    opacity: 0 !important;
+}
+
+#video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
